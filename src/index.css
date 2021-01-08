@@ -322,6 +322,7 @@ aside  {
 
 .account-link {
   margin-top: 2rem;
+  text-align: center;
   display: block;
   opacity: .7;
 }
