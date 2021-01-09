@@ -156,20 +156,29 @@ aside  {
 
 /** Form to edit and create tasks **/
 .form {
+  display: flex;
   background-color: var(--gris3);
   padding: 4rem;
 }
 .form form {
   max-width: 600px;
+  min-width: 80%;
   margin: 0 auto;
 }
-.form {
-  display: flex;
-}
+
 .form label {
   margin-bottom: 1rem;
   color: var(--blanco);
 }
+
+.input-container {
+  display: flex;
+}
+.input-container label {
+  margin-bottom: 1rem;
+  color: var(--blanco);
+}
+
 .input-text {
   padding: 1rem;
   border: none;
@@ -182,8 +191,6 @@ aside  {
 .task-container {
   padding: 4rem;
 }
-
-
 
 .task-list {
   max-width: 600px;
